@@ -10,3 +10,5 @@ System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
 		driver.findElement(By.xpath("//div[text()='Mobiles']")).click();
 		
 		driver.findElement(By.xpath("//span[text()='Electronics']")).click();
+		
+		Thread.sleep(2000);
